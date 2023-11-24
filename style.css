@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --themeyellow: #FBAE42;
+    --white: #ffffff;
+}
+
+/* header */
+
+/* button */
+.themeYellowbtn {
+    background: var(--themeyellow);
+}
+
+.themeYellowbtn:hover {
+    background: var(--themeyellow);
+    color: var(--white);
+}
+
+.themetransbtn:hover {
+    background-color: var(--white);
+    color: black;
+}
+
+.themetransbtn {
+    background-color: transparent;
+    color: var(--white);
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid var(--white);
+}
+
+.yellowborder {
+    border: 1px solid var(--themeyellow) !important;
+}
+
+/* button */
+.top-header {
+    background: #141416;
+}
+
+.top-header a {
+    color: var(--white);
+}
+
+/* header */
+
+
+/* Background */
+.cont-bg {
+    background-image: url("./assets/section-1-banners.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Background */
+
+/* Page 1 */
+.home-col {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.device-col img {
+    width: 100%;
+    text-align: center;
+}
+
+.home-content {
+    width: 600px;
+    padding: 10px 0px 0px 40px;
+}
+
+.home-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.home-content span {
+    color: var(--themeyellow);
+}
+
+.valuebox {
+    color: var(--white);
+}
+
+
+
+
+
+
+
+/* Page 1 end */
+
+/* Page 2 Start */
+
+.top-status-bar {
+    background-image: url("./assets/updatebg.png");
+    background-color: #00000063;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.valuebox h6 {
+    color: var(--themeyellow);
+}
+
+.chart-selling {
+    padding: 50px 0px;
+}
+
+.chart-box {
+    background: #18191D;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* graph image */
+.chart-box img {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.upper-chart ul {
+    background: #18191D;
+    border: 1px solid #fbae4221;
+    border-radius: 4px;
+}
+
+.upper-chart .nav-link.active {
+    background-color: var(--themeyellow);
+    border-radius: 10px;
+    border: none;
+}
+
+.upper-chart li a {
+    color: white;
+}
+
+.upper-chart .nav {
+    justify-content: space-between;
+}
+
+.upper-menu {
+    text-align: right;
+}
+
+.upper-menu svg {
+    color: white;
+}
+
+.upper-menu button {
+    border: 1px solid var(--themeyellow);
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+
+.selling-box {
+    padding: 30px 20px;
+    background-image: url("./assets/boxesbg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.sellBox {
+    /* margin: 1px 20px; */
+    border: 2px solid #fbae4221;
+    border-radius: 10px;
+    height: 130px;
+}
+
+
+.sellBox .col-8 {
+    padding: 0px;
+}
+
+.sellBox .col-4 {
+    padding: 0px;
+}
+
+.sellBox input::placeholder {
+    color: white;
+    /* Set the desired color for the placeholder text */
+}
+
+.sellBox input:focus {
+    background: transparent;
+    color: white;
+}
+
+.sellBox input {
+    height: 100%;
+    padding: 52px 10px;
+    background: no-repeat;
+    border: none;
+    color: white;
+}
+
+.sellBox button {
+    width: 100%;
+    height: 100%;
+}
+
+.refreshIcon {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+
+.sellingfilter svg {
+    color: white;
+}
+
+.sellingfilter button {
+    border: 1px solid var(--themeyellow);
+    border-radius: 20px;
+    padding: 4px 8px;
+}
+
+.connectWallet {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+/* Login Page */
+.login-bg {
+    border: 1px solid #fbae4242;
+    border-right: 2px solid #fbae4242;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url("./assets/loginbg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 40px 30px;
+}
+
+.login-panel {
+    width: 80%;
+}
+
+.login-panel h2 {
+    color: var(--white);
+}
+
+.login-panel h2 span {
+    color: var(--themeyellow);
+}
+
+.login-panel p {
+    color: var(--white);
+}
+
+.login-panel .form-label {
+    color: var(--themeyellow);
+    font-size: 20px;
+}
+
+.login-panel input::placeholder {
+    color: #878787;
+}
+
+.login-panel input {
+    background-color: #18191D;
+    border: 1px solid #fbae4242;
+    border-radius: 8px !important;
+}
+
+.login-panel .input-group-append {
+    margin-left: -40px !important;
+    z-index: 10;
+    padding-top: 5px;
+}
+
+.login-panel .input-group-text {
+    background-color: transparent;
+    border: none;
+}
+
+.login-panel i {
+    color: var(--themeyellow);
+}
+
+.divcheck {
+    border: 1px solid #fbae4242;
+    padding: 15px 10px 15px 15px;
+    border-radius: 8px;
+}
+
+.login-panel .form-check-label {
+    color: var(--white);
+    font-size: 13px;
+}
+
+.login-panel .themetransbtn {
+    padding: 8px 40px;
+    border-radius: 8px;
+    border-color: var(--themeyellow);
+    margin-top: 30px;
+}
+
+.login-panel h6 {
+    color: #878787;
+}
+
+.login-panel h6 span {
+
+    color: var(--themeyellow);
+}
+
+.login-img img {
+    width: 100%;
+}
+
+.login-img {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* end of login panel */
+
+/* side panel */
+.sidepanelbg {
+    border: 1px solid #fbae4242;
+    border-left: 0px;
+    border-right: 2px solid #fbae4242;
+    background-color: #18191D;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sidepanel {
+    padding: 30px 15px;
+}
+
+.normaltextbox {
+    color: var(--themeyellow);
+    padding-top: 10px;
+
+}
+
+.normaltextbox p {
+    color: var(--white);
+    font-size: 12px;
+}
+
+.bordertextbox {
+    color: var(--themeyellow);
+    padding: 20px 0px;
+    border: 1px dashed var(--themeyellow);
+    border-right: none;
+    border-left: none;
+}
+
+.bordertextbox button {
+    width: 100%;
+}
+
+.bordertextbox p {
+    color: var(--white);
+    font-size: 12px;
+}
+
+/* lower login  */
+.lowerlbg {
+    background-image: url(./assets/loginlowerbg.png);
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+
+.aca {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aca .lbox {
+    color: var(--white);
+
+}
+
+.aca span {
+    color: var(--themeyellow);
+}
+
+.iconbox {
+    color: var(--white);
+    text-align: center;
+    border-radius: 8px;
+    padding: 7px 15px;
+    border: 1px solid #fbae4242;
+}
+
+
+/* footer */
+.footericons i {
+    color: var(--themeyellow);
+}

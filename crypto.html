@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steller Coin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <!-- Header -->
+    <div id="header"></div>
+
+
+    <section class="cont-bg p-5">
+        <div class="container-fluid ">
+            <div class="top-status-bar">
+                <div class="row ">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="row">
+
+                            <div class="col-3"><img src="./assets/dolr.png" style="width: 2.8em;"></div>
+                            <div class="col-9">
+                                <div class="valuebox">
+                                    <h6>Last Price</h6>
+                                    <p style="color: #26DE71;">87695404334578</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="valuebox">
+                            <h6>Last USD Price</h6>
+                            <p>$4.1124</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6">
+                        <div class="valuebox">
+                            <h6>24h Changes</h6>
+                            <p style="color: red;">$84.4587</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 ">
+                        <div class="valuebox">
+                            <h6>24h High</h6>
+                            <p>6.789467sc</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-md-4 col-sm-6 ">
+                        <div class="valuebox">
+                            <h6>24h Low</h6>
+                            <p>6.1111111USDC</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2   col-md-4 col-sm-6  col-sm-6">
+                        <div class="valuebox">
+                            <h6>24h Volume</h6>
+                            <p>274.200kUSDC</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="container-fluid ">
+            <div class="chart-selling">
+                <div class="row">
+                    <!-- Chart Section -->
+                    <div class="col-md-7">
+                        <div class="chart-box">
+
+                            <div class="upper-chart">
+                                <div class="row">
+                                    <div class="col-sm-9">
+
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-graph-up-arrow"
+                                                        viewBox="0 0 16 16">
+                                                        <path fill-rule="evenodd"
+                                                            d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+                                                    </svg>
+                                                    Active</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">CandleStick</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Bar Chart</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-3">
+                                        <div class="upper-menu">
+                                            <button type="button" class="btn bg-transparent">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-fullscreen" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5M.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5">
+                                                    </path>
+                                                </svg>
+                                            </button>
+                                            <button type="button" class="btn bg-transparent">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-arrows-fullscreen"
+                                                    viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707">
+                                                    </path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PUT GRAPH CODE HERE -->
+                            <img src="./assets/graphDummy.PNG" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Selling Section -->
+                    <div class="col-md-5 ">
+                        <div class="selling-box">
+                            <div class="row p-3">
+                                <div class="col-8">
+                                    <button type="button" class="btn themetransbtn yellowborder me-2 ">XLM
+                                        Online</button>
+
+
+                                    <button type="button" class="btn themetransbtn yellowborder me-2">Charts</button>
+                                </div>
+                                <div class="col-4">
+                                    <div class="sellingfilter text-end">
+                                        <button type="button" class="btn bg-transparent ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-sliders2" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M10.5 1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4H1.5a.5.5 0 0 1 0-1H10V1.5a.5.5 0 0 1 .5-.5M12 3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m-6.5 2A.5.5 0 0 1 6 6v1.5h8.5a.5.5 0 0 1 0 1H6V10a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5M1 8a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2A.5.5 0 0 1 1 8m9.5 2a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V13H1.5a.5.5 0 0 1 0-1H10v-1.5a.5.5 0 0 1 .5-.5m1.5 2.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="col-6  align-self-end"></div> -->
+                            </div>
+                            <div class="row p-3">
+                                <div class="sellBox">
+                                    <form>
+                                        <div class="row">
+
+                                            <div class="col-8">
+                                                <label class="visually-hidden" for="inline-form-website">website</label>
+                                                <input type="text" class="form-control" id="inline-form-website"
+                                                    placeholder="1.0">
+                                            </div>
+
+                                            <div class="col-4">
+                                                <button type="submit" class="btn themeYellowbtn text-start">
+                                                    <img src="./assets/dolr.png" style="width: 2.8em;">
+                                                    Last Price <br>
+                                                    Stellar Network</button>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="refreshIcon">
+                                    <img src="./assets/Group 417.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="sellBox">
+                                    <form>
+                                        <div class="row">
+
+                                            <div class="col-8">
+                                                <label class="visually-hidden" for="inline-form-website">website</label>
+                                                <input type="text" class="form-control" id="inline-form-website"
+                                                    placeholder="6.0">
+                                            </div>
+
+                                            <div class="col-4">
+
+                                                <button type="submit" class="btn themeYellowbtn text-start">
+                                                    <img src="./assets/dolr.png" style="width: 2.8em;">
+                                                    Last Price <br>
+                                                    Stellar Network</button>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col connectWallet ">
+                                    <button type="button" class="btn themetransbtn yellowborder me-2">Connect Wallet
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+</body>
+
+</html>
