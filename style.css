@@ -9,6 +9,10 @@
     --white: #ffffff;
 }
 
+.yellowcolor {
+    color: var(--themeyellow) !important;
+}
+
 /* header */
 
 /* button */
@@ -409,7 +413,136 @@
 }
 
 
+/* trade page */
+.tradelistbox {
+    background-image: url(./assets/Group616.png);
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: 1px solid #fbae4242;
+}
+
+.tradelistbox h4 {
+    color: var(--white);
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.signals {
+    text-align: center;
+}
+
+
+.tradelistbox p {
+    color: var(--white);
+    font-size: 13px;
+    text-align: center;
+    margin: 0px 1px;
+}
+
+.depthlist p {
+    color: red;
+    font-size: 13px;
+    text-align: center;
+    margin: 0px 1px;
+}
+
+/* trade page */
+
+.tradetransferbox {
+    background-image: url(./assets/Group616.png);
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 1px solid #fbae4242;
+}
+
+.bslm .nav-tabs {
+    border: 1px solid #fbae4242;
+    background-color: #18191D;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bslm .nav-link.active {
+    background-color: var(--themeyellow);
+    border: none;
+    border-radius: 8px;
+}
+
+
+.tradetransferbox h6 {
+    color: var(--white);
+    font-size: 14px;
+    padding: 15px 0px 0px;
+}
+
+.percentagerow {
+    padding: 10px 0px;
+    width: 50%;
+    color: var(--white);
+    display: inline-flex;
+}
+
+.percentage-link:hover {
+    color: var(--themeyellow);
+}
+
+.percentage-link {
+    display: inline-block;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.borderedUsdc {
+    border-top: 2px dashed #fbae4242;
+    border-bottom: 2px dashed #fbae4242;
+    padding: 20px 0px;
+}
+
+.borderedUsdc p {
+    color: var(--white);
+    font-size: 13px;
+}
+
+.sellbtn {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.sellbtn button {
+    width: 170px;
+    /* text-align: center; */
+}
+
+.tradetransferbox input {
+    background: transparent;
+    border: 1px solid #fbae4242;
+    ;
+    border-radius: 8px;
+    padding: 5px;
+    color: var(--white);
+}
+
+/* chart two */
+.charttwo a {
+    color: var(--white);
+    padding: 10px;
+    border: none;
+}
+
+.charttwo a:hover {
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+}
+
+
 /* footer */
 .footericons i {
     color: var(--themeyellow);
+}
+
+.gap img {
+    width: 100%;
 }
