@@ -51,6 +51,9 @@
 .top-header a {
     color: var(--white);
 }
+.active{
+    color: var(--themeyellow) !important;
+}
 
 /* header */
 
@@ -114,8 +117,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 10px;
     border-radius: 20px;
+    border: 1px solid #fbae4242;
 }
 
 .valuebox h6 {
@@ -137,6 +141,7 @@
     width: 100%;
     margin: 10px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .upper-chart ul {
@@ -179,6 +184,8 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
+    border-radius: 8px;
+    border: 1px solid #fbae4221;
 }
 
 .sellBox {
@@ -189,11 +196,11 @@
 }
 
 
-.sellBox .col-8 {
+.sellBox .col-7 {
     padding: 0px;
 }
 
-.sellBox .col-4 {
+.sellBox .col-5 {
     padding: 0px;
 }
 
@@ -215,16 +222,29 @@
     color: white;
 }
 
+.sellBox img {
+
+    width: 2.4em;
+    margin-right: 11px;
+
+}
+
 .sellBox button {
+
+    display: inline-flex;
     width: 100%;
+    font-size: 12px;
     height: 100%;
+    align-items: center;
 }
 
 .refreshIcon {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-align: center;
 }
-
+.refreshIcon img {
+    width: 40px;
+}
 
 .sellingfilter svg {
     color: white;
@@ -237,7 +257,7 @@
 }
 
 .connectWallet {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -386,6 +406,8 @@
     background-image: url(./assets/loginlowerbg.png);
     background-repeat: no-repeat;
     padding: 70px;
+    border-radius: 8px;
+    border: 1px solid #fbae4221;
 }
 
 .aca {
@@ -525,7 +547,7 @@
 }
 
 /* chart two */
-.charttwo{
+.charttwo {
     background-image: url(./assets/Group617.png);
     padding: 20px 25px;
     border-radius: 8px;
@@ -543,7 +565,8 @@
     background-color: transparent;
     color: var(--white);
 }
-.lcbrow{
+
+.lcbrow {
     width: 350px;
     position: relative;
     top: 24px;
