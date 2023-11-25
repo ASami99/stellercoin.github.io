@@ -51,7 +51,16 @@
 .top-header a {
     color: var(--white);
 }
-.active{
+
+.top-header ul a:hover {
+    color: var(--themeyellow);
+}
+
+.top-header ul a:active {
+    color: var(--themeyellow);
+}
+
+.active-page {
     color: var(--themeyellow) !important;
 }
 
@@ -242,6 +251,7 @@
     padding: 10px 0px;
     text-align: center;
 }
+
 .refreshIcon img {
     width: 40px;
 }
