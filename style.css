@@ -680,7 +680,21 @@ a.headerwalletbtn {
     .login-panel {
         width: 100%;
     }
-
+    .login-bg {
+    border-radius: 10px;
+    background-repeat: repeat;
+    background-size: cover;   
+    }
+    .login-img img
+    {
+    width: 50%;
+    }
+    .login-img {
+    display: block;
+    height: auto;
+    text-align: center;
+    }
+    
     .lowerlbg {
         background-image: url(./assets/loginlowerbg.png);
         background-repeat: no-repeat;
