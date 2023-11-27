@@ -16,6 +16,7 @@
 /* header */
 
 /* button */
+
 .themeYellowbtn {
     background: var(--themeyellow);
 }
@@ -62,6 +63,15 @@
 
 .active-page {
     color: var(--themeyellow) !important;
+}
+
+.headerwalletbtn:hover {
+    color: var(--white);
+}
+
+a.headerwalletbtn {
+    color: black;
+    text-decoration: none;
 }
 
 /* header */
@@ -576,11 +586,15 @@
     color: var(--white);
 }
 
+.lcbdiv {
+    display: flex;
+    justify-content: center;
+}
+
 .lcbrow {
     width: 350px;
     position: relative;
     top: 24px;
-    left: 140px;
     margin-bottom: 40px;
 }
 
@@ -592,4 +606,115 @@
 
 .gap img {
     width: 100%;
+}
+
+
+
+
+/* Mobile responsive */
+@media only screen and (max-width: 600px) {
+    .home-col {
+        height: 450px;
+    }
+
+    .home-content {
+        width: 300px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .home-content h1 {
+        font-size: 22px;
+    }
+
+    .device-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .device-col img {
+        padding-top: 50px;
+        width: 71%;
+        /* text-align: center; */
+    }
+
+
+    /* footer */
+    .footericons {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copyrightline p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .copyrightline:nth-child(2) {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .ppterm {
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 11px;
+    }
+
+    /* footer */
+
+
+
+    /* trade page */
+    .cont-bg {
+        background-repeat: repeat;
+    }
+
+    /* trade page */
+
+    /* login page */
+    .login-bg {
+        padding: 20px 15px;
+    }
+
+    .login-panel {
+        width: 100%;
+    }
+
+    .lowerlbg {
+        background-image: url(./assets/loginlowerbg.png);
+        background-repeat: no-repeat;
+        padding: 20px 20px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        border: 1px solid #fbae4221;
+    }
+
+    .iconbox {
+        margin: 5px 0px;
+    }
+
+    .sidepanelbg {
+        /* border-left: 14px; */
+    }
+
+    .sidepanelbg {
+        border-left: 1px solid #fbae4242;
+        border-radius: 10px;
+    }
+
+    /* crypto page */
+    .upper-menu {
+        text-align: left;
+        padding: 15px 0px 0px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    button.btn.themetransbtn.yellowborder.me-2 {
+        margin-bottom: 10px;
+    }
+
+    /* crypto page */
 }
